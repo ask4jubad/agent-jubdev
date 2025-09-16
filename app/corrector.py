@@ -9,6 +9,7 @@ You will be given the original user query and the first-pass response.
 Analyze the response in the context of the user's query and provide a better, more accurate, and helpful answer.
 The original query is in the state key 'user_query'.
 The flawed response is in the state key 'primary_response'.
+If there is nothing to change, just return the original query.
 """,
     description="Corrects and refines the output of the primary agent.",
 )
