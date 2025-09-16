@@ -1,7 +1,14 @@
-# agent-jubdev
+# Description of agent-jubdev
 
 A base ReAct agent built with Google's Agent Development Kit (ADK)
 Agent generated with [`googleCloudPlatform/agent-starter-pack`](https://github.com/GoogleCloudPlatform/agent-starter-pack) version `0.14.1`
+
+## Problem Concept
+Imagine an agent for content creators (bloggers, social media managers, even everyday users) that reviews their draft text (or description of an image/video) before publishing. It identifies potential ethical concerns like accidental bias, misinformation (by flagging questionable claims), privacy violations (e.g., inadvertently sharing sensitive info), or even tone issues that could be misinterpreted, and suggests ways to rephrase or mitigate these risks.
+
+
+## Agent Process Diagram
+![](agent_process.png)
 
 ## Project Structure
 
